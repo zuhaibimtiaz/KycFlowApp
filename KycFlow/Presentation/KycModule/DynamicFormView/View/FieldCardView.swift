@@ -17,7 +17,7 @@ struct FieldCardView: View {
             GroupBox {
                 // Field Content
                 GroupBox {
-                    FieldView(field: $field)
+                    FieldViews(field: $field)
                 }
             } label: {
                 HStack {
