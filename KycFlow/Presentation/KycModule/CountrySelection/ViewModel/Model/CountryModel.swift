@@ -25,7 +25,6 @@ struct CountryModel: Identifiable, Hashable {
     static func defaultCountry() -> CountryModel {
         let code = Locale.current.region?.identifier ?? "NL"
         let name = Locale.current.localizedString(forRegionCode: code) ?? code
-        //        return CountryModel(id: code, name: name)
-        return .init(id: "DE", name: "Germany")
+        return CountryModel(id: code, name: name)
     }
 }
