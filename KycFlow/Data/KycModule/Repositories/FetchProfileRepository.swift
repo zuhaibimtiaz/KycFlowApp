@@ -25,7 +25,11 @@ struct FetchProfileRepository: FetchProfileRepositoryProtocol {
     }
     
     private func loadUserProfile(for country: CountryModel) async throws -> ProfileDto {
-        // Simulate network delay
+        /// Simulate fetching profile data from /api/nl-user-profile endpoint for NL-specific behavior.
+        /// In a production environment, this would make an HTTP request to /api/nl-user-profile to retrieve
+        /// user profile data (e.g., first_name, last_name) for read-only fields when country is NL.
+        /// Currently, it returns hardcoded mock data with a simulated network delay for demonstration.
+        /// Simulate network delay
         try await Task.sleep(for: .seconds(1))
         return ProfileDto(
             fields: [

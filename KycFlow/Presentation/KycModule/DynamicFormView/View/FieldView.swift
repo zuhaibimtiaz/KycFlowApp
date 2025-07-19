@@ -39,7 +39,8 @@ struct FieldView: View {
                         }
                     ),
                     displayedComponents: .date) {
-                        Text(KycFormViewScreenConstant.PleaseSelectDate.localized)
+                        Text(field.label)
+
                     }
                     .disabled(field.readOnly)
                     .onAppear {
@@ -65,6 +66,5 @@ struct FieldView: View {
                 .font(.caption)
                 .foregroundStyle(.red)
         }
-        
     }
 }

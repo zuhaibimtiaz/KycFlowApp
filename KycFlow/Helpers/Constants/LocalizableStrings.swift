@@ -35,7 +35,6 @@ enum KycFormViewScreenConstant {
     case navTitle
     case title
     case subTitle
-    case PleaseSelectDate
     
     var localized: LocalizedStringResource {
         switch self {
@@ -45,8 +44,6 @@ enum KycFormViewScreenConstant {
             LocalizedStringResource(stringLiteral: "Kyc Form View")
         case .subTitle:
             LocalizedStringResource(stringLiteral: "Please fill in all required fields")
-        case .PleaseSelectDate:
-            LocalizedStringResource(stringLiteral: "Please Select Date")
         }
     }
 }
