@@ -1,0 +1,200 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "*" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "*"
+          }
+        }
+      }
+    },
+    "Complete Your KYC" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vervollständigen Sie Ihren Kuchen"
+          }
+        }
+      }
+    },
+    "Country of Residence" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Land des Wohnsitzes"
+          }
+        }
+      }
+    },
+    "Country Selection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Länderauswahl"
+          }
+        }
+      }
+    },
+    "Full Screen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollbild"
+          }
+        }
+      }
+    },
+    "Half Sheet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halbes Blatt"
+          }
+        }
+      }
+    },
+    "Kyc Form View" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansicht des Kyc-Formulars"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächster"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OKAY"
+          }
+        }
+      }
+    },
+    "Please choose the country where you reside" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte wählen Sie das Land aus, in dem Sie wohnen"
+          }
+        }
+      }
+    },
+    "Please fill in all required fields" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte füllen Sie alle erforderlichen Felder aus"
+          }
+        }
+      }
+    },
+    "Please Select Date" : {
+
+    },
+    "Please verify all information is correct before submitting." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte überprüfen Sie, ob alle Informationen korrekt sind, bevor Sie sie einreichen."
+          }
+        }
+      }
+    },
+    "Required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erforderlich"
+          }
+        }
+      }
+    },
+    "Review your submitted information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überprüfen Sie Ihre übermittelten Informationen"
+          }
+        }
+      }
+    },
+    "Select Country" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Land auswählen"
+          }
+        }
+      }
+    },
+    "Select Your Country" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle dein Land"
+          }
+        }
+      }
+    },
+    "Submit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senden"
+          }
+        }
+      }
+    },
+    "Summary Review" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusammenfassende Überprüfung"
+          }
+        }
+      }
+    },
+    "This field is required" : {
+      "comment" : "ValidationMessage",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Feld ist erforderlich"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
