@@ -13,7 +13,7 @@ struct DynamicFormViewScreen<ViewModel: DynamicFormViewModelProtocol>: View {
     
     var body: some View {
         ScrollView {
-            LazyVStack(spacing: UIConstants.spacing.small) {
+            LazyVStack(spacing: UIConstants.Spacing.small) {
                 // Header
                 subTitleView
                 
@@ -28,7 +28,7 @@ struct DynamicFormViewScreen<ViewModel: DynamicFormViewModelProtocol>: View {
                 icon: "arrow.right",
                 action: nextAction
             )
-            .padding(.horizontal, UIConstants.padding.large)
+            .padding(.horizontal, UIConstants.Padding.large)
         }
         .navigationTitle(Text(KycFormViewScreenConstant.navTitle.localized))
     }
@@ -37,8 +37,8 @@ struct DynamicFormViewScreen<ViewModel: DynamicFormViewModelProtocol>: View {
         Text(KycFormViewScreenConstant.subTitle.localized)
             .subTitleStyle()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.top, UIConstants.padding.large)
-            .padding(.bottom, UIConstants.padding.small)
+            .padding(.top, UIConstants.Padding.large)
+            .padding(.bottom, UIConstants.Padding.small)
     }
     
     @ViewBuilder

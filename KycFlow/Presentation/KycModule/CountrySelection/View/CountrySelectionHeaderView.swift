@@ -12,14 +12,14 @@ import SwiftUI
 struct CountrySelectionHeaderView: View {
     /// we can add properties here if needed in the future
     var body: some View {
-        VStack(spacing: UIConstants.spacing.small) {
+        VStack(spacing: UIConstants.Spacing.small) {
             // Animated Globe Icon
             Image(systemName: "globe.europe.africa.fill")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .foregroundStyle(.blue.gradient)
                 .symbolEffect(.pulse)
-                .padding(.vertical, UIConstants.padding.medium)
+                .padding(.vertical, UIConstants.Padding.mediumLarge)
 
             // Title
             Text(CountrySelectionViewScreenConstant.title.localized)
@@ -29,6 +29,6 @@ struct CountrySelectionHeaderView: View {
             Text(CountrySelectionViewScreenConstant.subTitle.localized)
                 .subTitleStyle()
         }
-        .padding(.top, UIConstants.padding.large)
+        .padding(.top, UIConstants.Padding.large)
     }
 }

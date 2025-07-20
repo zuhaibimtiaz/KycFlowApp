@@ -14,18 +14,18 @@ struct SummaryReviewScreen<ViewModel: SummaryReviewViewModelProtocol>: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: UIConstants.spacing.small) {
+            VStack(spacing: UIConstants.Spacing.small) {
                 // Header Section
-                VStack(alignment: .leading, spacing: UIConstants.spacing.small) {
+                VStack(alignment: .leading, spacing: UIConstants.Spacing.small) {
                     Text(SummaryViewScreenConstant.title.localized)
                         .subTitleStyle()
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
-                .padding(.bottom, UIConstants.padding.small)
+                .padding(.bottom, UIConstants.Padding.small)
                 
                 // Content Card
-                LazyVStack(alignment: .leading, spacing: .zero) {
+                LazyVStack(alignment: .leading, spacing: UIConstants.Spacing.xxSmall) {
                     ForEach(viewModel.fields) { field in
                         FieldRowView(field: field)
                     }
@@ -37,7 +37,7 @@ struct SummaryReviewScreen<ViewModel: SummaryReviewViewModelProtocol>: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .center)
-                    .padding(UIConstants.padding.medium)
+                    .padding(UIConstants.Padding.mediumLarge)
             }
             .padding(.vertical)
         }
@@ -50,7 +50,7 @@ struct SummaryReviewScreen<ViewModel: SummaryReviewViewModelProtocol>: View {
                     isDisable: viewModel.state == .loading,
                     action: submit
                 )
-                .padding(.horizontal, UIConstants.padding.large)
+                .padding(.horizontal, UIConstants.Padding.large)
                 
             })
         .navigationTitle(Text(SummaryViewScreenConstant.navTitle.localized))

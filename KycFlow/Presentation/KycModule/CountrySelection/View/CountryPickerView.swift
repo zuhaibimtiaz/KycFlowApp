@@ -24,7 +24,7 @@ struct CountryPickerView<Country: Identifiable & Hashable>: View {
     var body: some View {
         VStack(
             alignment: .leading,
-            spacing: UIConstants.spacing.small
+            spacing: UIConstants.Spacing.small
         ) {
             // Field label
             Text(label)
@@ -45,7 +45,7 @@ struct CountryPickerView<Country: Identifiable & Hashable>: View {
             .padding(.horizontal)
             .frame(maxWidth: .infinity)
             .background(
-                RoundedRectangle(cornerRadius: UIConstants.radius.small)
+                RoundedRectangle(cornerRadius: UIConstants.Radius.small)
                     .strokeBorder(Color(.systemGray3), lineWidth: 1)
             )
             .clipped() // Ensure wheel stays within bounds

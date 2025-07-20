@@ -23,7 +23,7 @@ struct CountrySelectionViewScreen<ViewModel: CountrySelectionViewModelProtocol>:
     
     var body: some View {
         ScrollView {
-            VStack(spacing: UIConstants.spacing.large) {
+            VStack(spacing: UIConstants.Spacing.large) {
                 // Header with icon and title
                 CountrySelectionHeaderView()
                 // Country selection dropdown
@@ -53,7 +53,7 @@ struct CountrySelectionViewScreen<ViewModel: CountrySelectionViewModelProtocol>:
                 isDisable: viewModel.state == .loading,
                 action: loadForm
             )
-            .padding(.horizontal, UIConstants.padding.large)
+            .padding(.horizontal, UIConstants.Padding.large)
         }
         .onChange(of: viewModel.state) { _, newState in
             // Show error alert if viewModel.errorMessage changes

@@ -18,6 +18,7 @@ struct LanguageSelectionMenu: View, Equatable {
     private var selectedLanguage: String = "en"
 
     /// All supported languages
+    /// we can get the language options from lanugage Manager
     private let languageOptions: [LanguageOption] = [
         LanguageOption(code: "en", label: "English"),
         LanguageOption(code: "de", label: "Deutsch")
